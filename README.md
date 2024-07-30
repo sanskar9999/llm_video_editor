@@ -35,6 +35,23 @@ This application utilizes Large Language Models (LLM) and FFmpeg to automate vid
 - "Add subtitles from file subs.srt"
 - "Trim the video to the first 30 seconds"
 
+## Future Improvements 
+1. Error handling: Add more robust error handling, especially around the FFmpeg execution. Catch and display specific errors that may occur.
+2. Input validation: Add checks to ensure the video file exists and is a valid format before processing.
+3. Command preview: Allow users to preview and optionally edit the generated FFmpeg command before execution.
+4. Multiple operations: Support chaining multiple editing operations in a single session.
+5. Save/load instructions: Add functionality to save and load editing instruction presets.
+6. Progress tracking: Implement more detailed progress tracking for long-running operations.
+7. Undo functionality: Allow users to undo the last operation or revert to the original video.
+8. Video preview: Add a basic video player to preview the input and output videos.
+9. Batch processing: Support processing multiple videos with the same instructions.
+10. Custom output naming: Allow users to specify custom output file names.
+11. Settings: Add a settings menu to configure API keys, default folders, etc.
+12. Help/Documentation: Include a help section explaining how to use the app and common editing tasks.
+13. Logging: Implement logging to help with debugging and tracking usage.
+14. Multithreading improvements: Consider using a thread pool for better resource management.
+15. GUI improvements: Add tooltips, keyboard shortcuts, and improve the overall layout and styling.
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
